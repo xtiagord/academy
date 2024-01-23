@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+<title>Projeto swa</title>
+<meta name="author" content="Tiago Dalmolin">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div th:replace="/fragmentos/fragmentos :: cabecalho"></div>
+    <section class="neo-section" style="background-image: url('img/1536701314_TermosDeCompliance.png');">
+        <div class="sombra"></div>
+        <div class="center neo-container">
+            <h1 class="text-center">Sistema de Gerenciamneto de Alunos</h1>
+        
+
+        <div class="botoes">
+            <div class="wm">
+                <h5 class="btn">CADASTRAR ALUNO</h5>
+            </div>
+
+            <div class="wm">
+                <h5 class="btn justify-content-center">ENCONTRAR ALUNO</h5>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+    </section>
+
+    <div th:replace="fragmentos/fragmentos :: fragmentos"></div>
+    <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
